@@ -35,7 +35,7 @@ Analizar el panorama del mercado laboral en Perú a través de un dashboard inte
 - Comparar los **tipos de contrato y formas de pago**.
 - Estudiar los **rangos salariales por categoría**.
 - Detectar las **empresas con mayor actividad contratante**.
-- (Opcional) Identificar **habilidades frecuentes** mediante análisis de texto.
+
 
 ---
 
