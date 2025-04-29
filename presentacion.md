@@ -50,7 +50,9 @@ footer: 'Dashboard Interactivo - 2025'
 ## 📊 Metodología de Análisis
 
 
-![Metodologia](media/imagenmermaid.png)
+<img src="media/imagenmermaid.png" alt="Metodologia" width="400" style="display: block; margin: 0 auto;"/>
+
+
 ---
 ## 🚀 Diagrama de Infraestructura
 
