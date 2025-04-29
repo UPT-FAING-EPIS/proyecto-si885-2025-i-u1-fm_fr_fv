@@ -61,3 +61,4 @@ footer: 'Dashboard Interactivo - 2025'
 ## 🗄️ Diagrama de Base de Datos
 
 <!-- COMENTARIO: Imagen desde URL -->
+![tablabd](media/tabla_db.png)
