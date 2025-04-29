@@ -37,7 +37,7 @@ resource "random_integer" "ri" {
 # Create the resource group
 resource "azurerm_resource_group" "rg" {
   name     = "upt-arg-${random_integer.ri.result}"
-  location = "eastus"
+  location = "Brazil South"
 }
 
 resource "azurerm_mssql_server" "sqlsrv" {
@@ -57,7 +57,7 @@ resource "azurerm_mssql_firewall_rule" "sqlaccessrule" {
 }
 
 resource "azurerm_mssql_database" "sqldb" {
-  name      = "shorten"
+  name      = "BaseEmpleados"
   server_id = azurerm_mssql_server.sqlsrv.id
-  sku_name = "Free"
+  sku_name = "Basic"
 }
