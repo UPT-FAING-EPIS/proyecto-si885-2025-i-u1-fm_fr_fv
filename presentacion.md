@@ -12,8 +12,8 @@ style: |
     h2 {
         color: #3498db;
     }
-header: 'Análisis del Mercado Laboral Peruano'
-footer: 'Dashboard Interactivo - 2023'
+header: 'Aplicacion de Monitoreo y Análisis del Mercado Laboral Peruano'
+footer: 'Dashboard Interactivo - 2025'
 ---
 
 # 🎯 Panorama del Mercado Laboral en Perú
@@ -54,6 +54,16 @@ graph TD
     A[Recolección de datos] --> B(Limpieza y procesamiento)
     B --> C[Modelado de base de datos]
     C --> D{Visualización interactiva}
-    D --> E[Dashboard Power BI/Tableau]
+    D --> E[Dashboard Power BI]
     D --> F[Mapas geográficos]
     D --> G[Gráficos temporales]
+```
+---
+## 🚀 Diagrama de Infraestructura
+
+<!-- COMENTARIO: Imagen desde URL -->
+---
+
+## 🗄️ Diagrama de Base de Datos
+
+<!-- COMENTARIO: Imagen desde URL -->
