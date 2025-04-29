@@ -58,6 +58,8 @@ footer: 'Dashboard Interactivo - 2025'
 
 <!-- COMENTARIO: Imagen desde URL -->
 
+<img src="media/img2.png" alt="Metodologia" width="400" style="display: block; margin: 0 auto;"/>
+
 ---
 
 ## 🗄️ Diagrama de Base de Datos
