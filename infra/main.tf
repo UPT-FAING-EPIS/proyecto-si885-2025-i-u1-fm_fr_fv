@@ -36,12 +36,12 @@ resource "random_integer" "ri" {
 
 # Create the resource group
 resource "azurerm_resource_group" "rg" {
-  name     = "upt-arg-${random_integer.ri.result}"
+  name     = "upt-arg-150"
   location = "Brazil South"
 }
 
 resource "azurerm_mssql_server" "sqlsrv" {
-  name                         = "upt-dbs-${random_integer.ri.result}"
+  name                         = "upt-dbs-150"
   resource_group_name          = azurerm_resource_group.rg.name
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
