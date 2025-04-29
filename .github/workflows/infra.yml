@@ -125,7 +125,17 @@ jobs:
             echo "## infracost Report" >> $GITHUB_STEP_SUMMARY
             echo "${{ steps.html2markdown.outputs.markdown-content }}" >> infracost.md
             cat infracost.md >> $GITHUB_STEP_SUMMARY
-      - name: Terraform Apply
+      - name: Check if resources exist
+        id: check_resources
         run: |
-            cd infra
-            terraform apply -var="suscription_id=${{ secrets.SUSCRIPTION_ID }}" -var="sqladmin_username=${{ secrets.SQL_USER }}" -var="sqladmin_password=${{ secrets.SQL_PASS }}" -auto-approve main.tfplan
+          cd infra
+          # Verifica si los recursos existen contando outputs específicos
+          RESOURCE_COUNT=$(terraform state list | grep -c "azurerm_mssql_database" || echo "0")
+          echo "resource_exists=$([[ $RESOURCE_COUNT -gt 0 ]] && echo "true" || echo "false")" >> $GITHUB_OUTPUT
+
+      - name: Terraform Apply
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.check_resources.outputs.resource_exists == 'false' }}
+        run: |
+          cd infra
+          terraform apply -var="suscription_id=${{ secrets.SUSCRIPTION_ID }}" -var="sqladmin_username=${{ secrets.SQL_USER }}" -var="sqladmin_password=${{ secrets.SQL_PASS }}" -auto-approve main.tfplan
+        
