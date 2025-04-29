@@ -49,19 +49,13 @@ footer: 'Dashboard Interactivo - 2025'
 
 ## 📊 Metodología de Análisis
 
-```mermaid
-graph TD
-    A[Recolección de datos] --> B(Limpieza y procesamiento)
-    B --> C[Modelado de base de datos]
-    C --> D{Visualización interactiva}
-    D --> E[Dashboard Power BI]
-    D --> F[Mapas geográficos]
-    D --> G[Gráficos temporales]
-```
+
+![Metodologia](media/imagenmermaid.png)
 ---
 ## 🚀 Diagrama de Infraestructura
 
 <!-- COMENTARIO: Imagen desde URL -->
+
 ---
 
 ## 🗄️ Diagrama de Base de Datos
