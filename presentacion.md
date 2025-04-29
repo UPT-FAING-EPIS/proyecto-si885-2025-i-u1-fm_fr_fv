@@ -50,7 +50,7 @@ footer: 'Dashboard Interactivo - 2025'
 ## 📊 Metodología de Análisis
 
 
-<img src="media/imagenmermaid.png" alt="Metodologia" width="400" style="display: block; margin: 0 auto;"/>
+<img src="media/imagenmermaid.png" alt="Metodologia" width="100" style="display: block; margin: 0 auto;"/>
 
 
 ---
