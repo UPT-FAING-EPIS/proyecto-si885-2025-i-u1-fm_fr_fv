@@ -28,9 +28,7 @@ footer: 'Dashboard Interactivo - 2025'
 **Analizar el panorama del mercado laboral peruano mediante:**
 
 - Distribución geográfica de ofertas
-- Segmentación sectorial del empleo
-- Herramienta interactiva para usuarios
-- Visualización intuitiva de datos
+
 
 ---
 
