@@ -24,21 +24,16 @@ paginate: true
 
 ## 🎯 Objetivo Principal
 
-Analizar el panorama del mercado laboral en Perú a través de un **dashboard interactivo** que permita:
-
-- Comprender la **distribución geográfica y sectorial** de las ofertas de empleo.
-- Facilitar la **toma de decisiones** para usuarios interesados en oportunidades laborales.
+Desarrollar un dashboard interactivo, moderno e intuitivo que permita a los usuarios visualizar y analizar de forma clara la distribución geográfica y sectorial de las ofertas de empleo en Perú, con el objetivo de facilitar la identificación de oportunidades laborales y apoyar la toma de decisiones informadas en el contexto del mercado laboral actual.
 
 ---
 
 ## ✅ Objetivos Secundarios
 
-- Identificar los **departamentos** con mayor oferta laboral.
-- Evaluar las **categorías** con más publicaciones.
-- Analizar la **evolución temporal** de las vacantes.
-- Comparar los **tipos de contrato** y **formas de pago**.
-- Estudiar los **rangos salariales** por categoría.
-- Detectar las **empresas** con mayor actividad contratante.
+- Mostrar cuántas ofertas de empleo hay según la categoría y la ubicación, para saber en qué regiones y sectores hay más oportunidades laborales.
+- Visualizar los sueldos ofrecidos y el tipo de pago, para comparar mejor las condiciones económicas entre diferentes empleos.
+- Permitir que el usuario filtre la información por categoría, empresa, tipo de contrato, ubicación y fecha, para encontrar trabajos que se ajusten a lo que busca.
+- Presentar los detalles y requisitos de cada oferta de forma clara, incluyendo descripciones, tipo de contrato y enlaces para postular fácilmente.
 
 ---
 
